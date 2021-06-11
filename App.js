@@ -18,12 +18,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Box>
-      </Box>
-      <Box2>
-        <Text>Number 1:</Text>
-        <Text>Number 2:</Text>
-      </Box2>
+      <Box></Box>
+      <Box2></Box2>
     </View>
   );
 }

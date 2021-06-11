@@ -33,9 +33,28 @@ export default StyleSheet.create({
       box2: {
           height: 300,
           width: 500,
-          backgroundColor: "grey",
+          backgroundColor: "white",
           borderStyle: "solid",
+          borderColor: "black",
           alignItems: "flex-start",
-          justifyContent: "space-evenly"
+          justifyContent: "space-evenly",
+          paddingLeft:20,
+          paddingRight: 20
+      },
+      button: {
+          backgroundColor: "white",
+          borderWidth: 1,
+          borderColor: "blue"
+      },
+      boxInput: {
+          height: 30,
+          alignSelf: "stretch",
+          borderColor: "grey",
+          borderWidth: 1,
+          borderTopRightRadius:5,
+          borderTopLeftRadius: 5,
+          borderBottomLeftRadius: 5,
+          borderBottomRightRadius: 5
       }
+
 })
